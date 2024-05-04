@@ -4,6 +4,7 @@ import { animationCreate } from "../../../utils/utils";
 // import BlogArea from "./blog-area";
 // import BrandArea from "./brand-area";
 import CreativeArea from "./home-banner";
+import WhereWeServeMap from "./where-we-serve-map";
 // import HeroArea from "./hero-area";
 // import NewsLetter from "./news-letter";
 // import ProjectArea from "./project-area";
@@ -21,6 +22,7 @@ const Home = () => {
       <Header />
       {/* <HeroArea /> */}
       <CreativeArea />
+      <WhereWeServeMap />
       {/* <BrandArea/> */}
       {/* <ServicesArea/> */}
       {/* <ProjectArea/> */}
