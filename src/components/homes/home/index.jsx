@@ -3,7 +3,7 @@ import { Footer, Header, Wrapper } from "../../../layout";
 import { animationCreate } from "../../../utils/utils";
 // import BlogArea from "./blog-area";
 // import BrandArea from "./brand-area";
-// import CreativeArea from "./creative-area";
+import CreativeArea from "./home-banner";
 // import HeroArea from "./hero-area";
 // import NewsLetter from "./news-letter";
 // import ProjectArea from "./project-area";
@@ -19,14 +19,14 @@ const Home = () => {
   return (
     <Wrapper>
       <Header />
-      {/* <HeroArea />
-      <CreativeArea/>
-      <BrandArea/>
-      <ServicesArea/>
-      <ProjectArea/>
-      <Testimonial/>
-      <BlogArea/>
-      <NewsLetter/> */}
+      {/* <HeroArea /> */}
+      <CreativeArea />
+      {/* <BrandArea/> */}
+      {/* <ServicesArea/> */}
+      {/* <ProjectArea/> */}
+      {/* <Testimonial/> */}
+      {/* <BlogArea/> */}
+      {/* <NewsLetter/> */}
       {/* <Footer /> */}
     </Wrapper>
   );
