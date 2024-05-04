@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Footer, Header, Wrapper } from "../../../layout";
+import { FooterThree, Header, Wrapper } from "../../../layout";
 import { animationCreate } from "../../../utils/utils";
 // import BlogArea from "./blog-area";
 // import BrandArea from "./brand-area";
@@ -27,7 +27,7 @@ const Home = () => {
       {/* <Testimonial/> */}
       {/* <BlogArea/> */}
       {/* <NewsLetter/> */}
-      {/* <Footer /> */}
+      <FooterThree />
     </Wrapper>
   );
 };
