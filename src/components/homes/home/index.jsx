@@ -9,7 +9,7 @@ import WhereWeServeMap from "./where-we-serve-map";
 // import NewsLetter from "./news-letter";
 // import ProjectArea from "./project-area";
 // import ServicesArea from "./services-area";
-// import Testimonial from "./testimonial";
+import Testimonial from "./testimonial";
 
 const Home = () => {
   useEffect(() => {
@@ -26,7 +26,7 @@ const Home = () => {
       {/* <BrandArea/> */}
       {/* <ServicesArea/> */}
       {/* <ProjectArea/> */}
-      {/* <Testimonial/> */}
+      <Testimonial />
       {/* <BlogArea/> */}
       {/* <NewsLetter/> */}
       <FooterThree />
