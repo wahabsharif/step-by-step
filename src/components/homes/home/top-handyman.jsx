@@ -5,14 +5,14 @@ import Image from "next/image";
 const contents = {
   shapes: ["bp-chose-5.1.png", "bp-chose-5.2.png", "bp-chose-5.3.png"],
   feature_bg: "/assets/img/feature/fea-2.png",
-  subtitle: "Why Choose us",
-  title: "We provide the best",
-  highlight_text: "solution for",
+  subtitle: "Handyman",
+  title: "Top",
+  highlight_text: " Handyman",
   text_1:
-    "By understanding the client,s condition and leveraging our experience and knowledge. we support reform by recommending the most appropriate methods and sesources.",
+    "In the event of an electrical short circuit or a burnt-out DP box at your home, there's no need to panic! Our handyman services in Dubai are available 24/7 to handle all your emergency repair needs. With years of experience in the field, we specialize in addressing issues like burnt socket wires, shower leaks, and clogged main lines, providing efficient solutions with minimal hassle.",
   text_2:
-    "At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing.",
-  btn_text: "About Collax",
+    "Our team comprises skilled and seasoned professionals capable of resolving various problems, including electricity failures and AC water leaks, at competitive rates. Whether it's day or night, our emergency handyman services in Dubai are just a call away. Don't hesitate to reach out to us for prompt assistance—we're here to lend a hand whenever you need us!",
+  btn_text: "Explore More",
 };
 
 const {
@@ -50,17 +50,17 @@ const TopHandyman = () => {
                   <div className="tp-chose-item mb-40">
                     <div className="tpchosebox">
                       <div className="tpchosebox__icon mb-30">
-                        <a href="#">
+                        <a href="/handyman">
                           <i className="flaticon-group"></i>
                         </a>
                       </div>
                       <div className="tpchosebox__content">
                         <h4>
-                          <a href="#">
-                            Professional <br /> Team
+                          <a href="/handyman">
+                            Professional <br /> Handyman
                           </a>
                         </h4>
-                        <p>24+ Team Member</p>
+                        <p>25+ Team Member</p>
                       </div>
                     </div>
                   </div>
@@ -74,10 +74,10 @@ const TopHandyman = () => {
                       color="4"
                       title={
                         <>
-                          Cretified <br /> Globally
+                          Available At <br /> Your Door Step
                         </>
                       }
-                      text="65.04 k Reach"
+                      text="24 Hour"
                     />
                     <ChoseItem
                       item_num={"three"}
@@ -103,7 +103,7 @@ const TopHandyman = () => {
             <div className="tp-feature-section-title-box">
               <h5 className="tp-subtitle pb-10">{subtitle}</h5>
               <h2 className="tp-title tp-title-sm">
-                {title}
+                {title}{" "}
                 <span className="tp-section-highlight">
                   {highlight_text}
                   <svg
@@ -118,13 +118,13 @@ const TopHandyman = () => {
                       fill="#ec3237"
                     />
                   </svg>
-                </span>
-                your business development
+                </span>{" "}
+                In Dubai.
               </h2>
               <p className="pb-25">{text_1}</p>
               <p className="pb-20">{text_2}</p>
               <div className="tp-fea-button-five">
-                <Link href="/contact">
+                <Link href="/handyman">
                   <a className="tp-btn-sky">{btn_text}</a>
                 </Link>
               </div>
@@ -148,13 +148,13 @@ const ChoseItem = ({ item_num, m, icon, title, text, color }) => {
       data-wow-delay=".7s"
     >
       <div className={`tpchosebox__icon fea-color-${color} mb-30`}>
-        <a href="#">
+        <a href="/handyman">
           <i className={icon}></i>
         </a>
       </div>
       <div className="tpchosebox__content">
         <h4>
-          <a href="#">{title}</a>
+          <a href="/handyman">{title}</a>
         </h4>
         <p>{text}</p>
       </div>
