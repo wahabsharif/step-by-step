@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import menu_data from "../../../layout/headers/menu-data";
+import Image from "next/image";
 
 const sidebar_contents = {
   title: (
@@ -31,13 +32,18 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
     <>
       <div className="tp-offcanvas-area">
         <div className={`tpoffcanvas ${isOpen ? "opened" : ""}`}>
-          {/* <div className="tpoffcanvas__logo">
+          <div className="tpoffcanvas__logo">
             <Link href="/">
               <a>
-                <img src="/assets/img/logo/logo-white.png" alt="" />
+                <Image
+                  src="/assets/img/logo/step-by-step-logo-white.png"
+                  alt=""
+                  width={150}
+                  height={100}
+                />
               </a>
             </Link>
-          </div> */}
+          </div>
           <div
             className="tpoffcanvas__close-btn"
             onClick={() => setIsOpen(false)}

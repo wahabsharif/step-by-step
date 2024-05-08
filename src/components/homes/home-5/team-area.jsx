@@ -1,16 +1,32 @@
-import React from 'react';
-import { team_data } from '../../../data';
-import SingleTeam from '../../common/single-team';
+import React from "react";
+import { team_data } from "../../../data";
+import SingleTeam from "../../common/single-team";
 
-const teams = team_data.filter(team => team.home_5);
+const teams = team_data.filter((team) => team.home_5);
 
 const contents = {
-  subtitle:'Our Team',
-  title:<>Meet our <span className="tp-section-highlight"> advisors
-    <svg width="201" height="12" viewBox="0 0 201 12" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0L201 12H0V0Z" fill="#FFDC60" />
-    </svg> </span></>
-}
-const {subtitle,title} = contents;
+  subtitle: "Our Team",
+  title: (
+    <>
+      Meet our{" "}
+      <span className="tp-section-highlight">
+        {" "}
+        advisors
+        <svg
+          width="201"
+          height="12"
+          viewBox="0 0 201 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {" "}
+          <path d="M0 0L201 12H0V0Z" fill="#ec3237" />
+        </svg>{" "}
+      </span>
+    </>
+  ),
+};
+const { subtitle, title } = contents;
 
 const TeamArea = () => {
   return (
@@ -28,7 +44,9 @@ const TeamArea = () => {
           </div>
         </div>
         <div className="row">
-          {teams.map((team) => <SingleTeam key={team.id} team={team} />)}
+          {teams.map((team) => (
+            <SingleTeam key={team.id} team={team} />
+          ))}
         </div>
       </div>
     </div>

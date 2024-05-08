@@ -4,6 +4,7 @@ import useSticky from "../../hooks/use-sticky";
 import Sidebar from "../../components/common/off-canvas";
 import NavMenus from "./nav-menus";
 import MobileMenu from "./mobile-menu";
+import Image from "next/image";
 
 const Header = () => {
   const { headerSticky } = useSticky();
@@ -18,15 +19,20 @@ const Header = () => {
         >
           <div className="container-fluid">
             <div className="row align-items-center">
-              {/* <div className="col-xl-3 col-lg-3">
+              <div className="col-xl-3 col-lg-3">
                 <div className="tp-logo">
                   <Link href="/">
                     <a>
-                      <img src="/assets/img/logo/logo-blue.png" alt="" />
+                      <Image
+                        src="/assets/img/logo/step-by-step-logo.png"
+                        alt=""
+                        width={130}
+                        height={80}
+                      />
                     </a>
                   </Link>
                 </div>
-              </div> */}
+              </div>
               <div className="col-xl-7 col-lg-7">
                 <div className="tp-main-menu">
                   <nav id="mobile-menu">
@@ -52,7 +58,7 @@ const Header = () => {
       </header>
 
       {/* <!-- mobile-menu-area --> */}
-      <MobileMenu logo={"logo.png"} />
+      <MobileMenu logo={"step-by-step-logo.png"} />
       {/* <!-- mobile-menu-area-end --> */}
 
       {/* off canvas start */}

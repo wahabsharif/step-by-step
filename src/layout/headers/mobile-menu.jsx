@@ -1,6 +1,7 @@
 import React from "react";
 import useSticky from "../../hooks/use-sticky";
 import Sidebar from "../../components/common/off-canvas";
+import Image from "next/image";
 
 const MobileMenu = ({ logo, bg, transparent = true }) => {
   const { headerSticky } = useSticky();
@@ -16,11 +17,18 @@ const MobileMenu = ({ logo, bg, transparent = true }) => {
       >
         <div className="container-fluid">
           <div className="row align-items-center">
-            {/* <div className="col-6">
+            <div className="col-6">
               <div className="tp-logo">
-                <a href="#"><img src={`/assets/img/logo/${logo}`} alt="" /></a>
+                <a href="#">
+                  <Image
+                    src={`/assets/img/logo/${logo}`}
+                    alt=""
+                    width={100}
+                    height={60}
+                  />
+                </a>
               </div>
-            </div> */}
+            </div>
             <div className="col-6">
               <div className="bar text-end">
                 <button

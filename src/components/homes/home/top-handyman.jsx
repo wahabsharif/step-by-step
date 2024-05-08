@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const contents = {
   shapes: ["bp-chose-5.1.png", "bp-chose-5.2.png", "bp-chose-5.3.png"],
@@ -25,12 +26,12 @@ const {
   title,
 } = contents;
 
-const FeatureArea = () => {
+const TopHandyman = () => {
   return (
     <div className="tp-chose-area pt-190 pb-130 p-relative">
       {shapes.map((s, i) => (
         <div key={i} className={`bp-chose-${i + 1} d-none d-lg-block`}>
-          <img src={`/assets/img/chose/${s}`} alt="" />
+          <Image src={`/assets/img/chose/${s}`} alt="" layout="fill" />
         </div>
       ))}
       <div className="container">
@@ -38,7 +39,7 @@ const FeatureArea = () => {
           <div className="col-xl-6 col-lg-7 col-md-12">
             <div className="tpchosebox-main p-relative">
               <div className="tp-chose-bg">
-                <img src={feature_bg} alt="" />
+                <Image src={feature_bg} alt="" layout="fill" />
               </div>
               <div className="row gx-40 align-items-center tp-chose-space">
                 <div
@@ -135,7 +136,7 @@ const FeatureArea = () => {
   );
 };
 
-export default FeatureArea;
+export default TopHandyman;
 
 const ChoseItem = ({ item_num, m, icon, title, text, color }) => {
   return (
