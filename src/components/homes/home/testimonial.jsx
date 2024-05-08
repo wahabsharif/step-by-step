@@ -8,7 +8,7 @@ const testimonial_data = [
     name: "Darrell Steward",
     title: "Founder of (Rirax)",
     ratings: [1, 2, 3, 4, 5],
-    desc: "Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
+    desc: "Step By Step was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const testimonial_data = [
     name: "Floyd Miles",
     title: "CEO of (Orix)",
     ratings: [1, 2, 3, 4],
-    desc: "Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
+    desc: "Step By Step was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const testimonial_data = [
     name: "Albert Flores",
     title: "Founder of (Rirax)",
     ratings: [1, 2, 3, 4, 5],
-    desc: "Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
+    desc: "Step By Step was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const testimonial_data = [
     name: "Darrell Steward",
     title: "Founder of (Rirax)",
     ratings: [1, 2, 3, 4, 5],
-    desc: "Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
+    desc: "Step By Step was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.",
   },
 ];
 

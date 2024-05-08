@@ -19,7 +19,7 @@ const hero_contents = {
   highlight_text: "Advisors",
   short_text: (
     <>
-      At collax we specialize in designing, building, shipping and scaling{" "}
+      At Step By Step we specialize in designing, building, shipping and scaling{" "}
       <br /> beautiful, usable products with blazing.
     </>
   ),

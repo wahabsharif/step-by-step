@@ -25,7 +25,7 @@ const about_contents = {
   ),
   sm_desc:
     "By understanding the client,s condition and leveraging our experience and knowledge. we support reform by recommending the most appropriate methods and resources.",
-  btn_text: "About Collax",
+  btn_text: "About Step By Step",
 };
 const { about_img, btn_text, sm_desc, subtitle, title } = about_contents;
 

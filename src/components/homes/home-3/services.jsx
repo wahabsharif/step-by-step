@@ -27,7 +27,7 @@ const Services = () => {
                       {" "}
                       <path d="M0 0L290 11H0V0Z" fill="#ec3237" />
                     </svg>
-                    with collax
+                    with Step By Step
                   </span>
                 </h2>
               </div>

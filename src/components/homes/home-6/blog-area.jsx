@@ -1,13 +1,13 @@
-import Link from 'next/link';
-import React from 'react';
-import { blog_data } from '../../../data';
+import Link from "next/link";
+import React from "react";
+import { blog_data } from "../../../data";
 
 const blog_contents = {
-  shapes: ['blog/hero-shape-5.1.png', 'testimonial/testimonial-shape-5.3.png'],
-  subtitle: 'Blog Post',
-  title: 'Collax news & blog',
-  blog_items: blog_data.filter(b => b.home_6),
-}
+  shapes: ["blog/hero-shape-5.1.png", "testimonial/testimonial-shape-5.3.png"],
+  subtitle: "Blog Post",
+  title: "Step By Step news & blog",
+  blog_items: blog_data.filter((b) => b.home_6),
+};
 const { subtitle, title, shapes, blog_items } = blog_contents;
 
 const BlogArea = () => {
@@ -22,26 +22,37 @@ const BlogArea = () => {
         <div className="row gx-0 justify-content-center">
           <div className="col-xl-8">
             <div className="tp-project-section-box text-center">
-              <h5 className="tp-subtitle tp-subtitle-before-color">{subtitle}</h5>
+              <h5 className="tp-subtitle tp-subtitle-before-color">
+                {subtitle}
+              </h5>
               <h2 className="tp-title-sm pb-65">{title}</h2>
             </div>
           </div>
         </div>
         <div className="row">
           {blog_items.map((item) => {
-            const { id, img, meta_tag, short_desc, duration, delay, title } = item;
+            const { id, img, meta_tag, short_desc, duration, delay, title } =
+              item;
             return (
-              <div key={id} className="col-xl-4 col-lg-4 col-md-6 wow tpfadeUp"
-                data-wow-duration={duration} data-wow-delay={delay}>
+              <div
+                key={id}
+                className="col-xl-4 col-lg-4 col-md-6 wow tpfadeUp"
+                data-wow-duration={duration}
+                data-wow-delay={delay}
+              >
                 <div className="bpblog">
                   <div className="bpblog__item mb-30">
                     <div className="bpblog__img w-img fix">
                       <Link href={`/blog-details/${id}`}>
-                        <a><img src={img} alt="" /></a>
+                        <a>
+                          <img src={img} alt="" />
+                        </a>
                       </Link>
                     </div>
                     <div className="bpblog__content">
-                      <span><a href="#">{meta_tag}</a></span>
+                      <span>
+                        <a href="#">{meta_tag}</a>
+                      </span>
                       <h4 className="bp-blog-title">
                         <Link href={`/blog-details/${id}`}>
                           <a>{title}</a>
@@ -52,9 +63,8 @@ const BlogArea = () => {
                   </div>
                 </div>
               </div>
-            )
+            );
           })}
-
         </div>
       </div>
     </div>

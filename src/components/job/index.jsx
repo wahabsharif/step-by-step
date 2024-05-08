@@ -14,7 +14,7 @@ const Job = () => {
   return (
     <Wrapper>
       <HeaderSix />
-      <Breadcrumb title={"Collax Job List"} />
+      <Breadcrumb title={"Step By Step Job List"} />
       <JobArea />
       <Cta />
       <FooterThree />

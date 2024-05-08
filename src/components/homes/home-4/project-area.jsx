@@ -22,7 +22,7 @@ const ProjectArea = () => {
 
   const project_contents = {
     subtitle: "Projects",
-    title: `Collax complete ${" "}`,
+    title: `Step By Step complete ${" "}`,
     highlight_text: "project",
   };
   const { title, subtitle, highlight_text } = project_contents;

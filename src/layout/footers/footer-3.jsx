@@ -10,7 +10,7 @@ import mastercard from "../../../public/assets/img/icons/mastercard.png";
 import stripe from "../../../public/assets/img/icons/stripe-icon.png";
 
 const footer_contents = {
-  logo: "/assets/img/logo/logo-white.png",
+  logo: "/assets/img/logo/step-by-step-logo-white.png",
   widget_desc:
     "A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tationulla",
   footer_widgets: [
@@ -96,15 +96,17 @@ const FooterThree = ({ home_four = false }) => {
               <div className="col-xl-3 col-lg-4 col-md-6">
                 <div className="tp-footer-widget">
                   {!home_four && (
-                    <div className="tp-footer-widget__logo mb-30">
-                      {/* <Link href="/">
-                      <a><img src={logo} alt="" /></a>
-                    </Link> */}
+                    <div className="tp-footer-widget__logo mb-30 text-center">
+                      <Link href="/">
+                        <a>
+                          <Image src={logo} alt="" width={150} height={100} />
+                        </a>
+                      </Link>
                     </div>
                   )}
                   {home_four && (
                     <div className="tp-footer-widget__title mb-30">
-                      <h3 className="footer-title">About Collax</h3>
+                      <h3 className="footer-title">About Step By Step</h3>
                     </div>
                   )}
                   <div className="tp-footer-widget__text mb-30">

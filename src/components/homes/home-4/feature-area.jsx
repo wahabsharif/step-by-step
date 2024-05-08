@@ -13,8 +13,8 @@ const feature_contents = {
       title: "Fast working process",
       subtitle: (
         <>
-          At collax we specialize in designing, building, <br /> shipping and
-          scaling beautiful.
+          At Step By Step we specialize in designing, building, <br /> shipping
+          and scaling beautiful.
         </>
       ),
     },
@@ -24,8 +24,8 @@ const feature_contents = {
       title: "Dedicated team",
       subtitle: (
         <>
-          At collax we specialize in designing, building, <br /> shipping and
-          scaling beautiful.
+          At Step By Step we specialize in designing, building, <br /> shipping
+          and scaling beautiful.
         </>
       ),
     },
@@ -35,8 +35,8 @@ const feature_contents = {
       title: "24/7 hours support",
       subtitle: (
         <>
-          At collax we specialize in designing, building, <br /> shipping and
-          scaling beautiful.
+          At Step By Step we specialize in designing, building, <br /> shipping
+          and scaling beautiful.
         </>
       ),
     },

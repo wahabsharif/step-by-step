@@ -1,17 +1,25 @@
-import React from 'react';
-import { HighlightThree, PopupArrow } from '../../../svg';
-import ImageLightBox from '../../common/modals/image-lightbox';
+import React from "react";
+import { HighlightThree, PopupArrow } from "../../../svg";
+import ImageLightBox from "../../common/modals/image-lightbox";
 
 const project_contents = {
-  subtitle: 'Projects',
-  title: <>Collax latest <span className="tp-section-highlight"> project <HighlightThree /> </span></>,
+  subtitle: "Projects",
+  title: (
+    <>
+      Step By Step latest{" "}
+      <span className="tp-section-highlight">
+        {" "}
+        project <HighlightThree />{" "}
+      </span>
+    </>
+  ),
   images: [
-    '/assets/img/project/project-6.1.jpg',
-    '/assets/img/project/project-6.2.jpg',
-    '/assets/img/project/project-6.3.jpg',
-    '/assets/img/project/project-6.4.jpg',
-  ]
-}
+    "/assets/img/project/project-6.1.jpg",
+    "/assets/img/project/project-6.2.jpg",
+    "/assets/img/project/project-6.3.jpg",
+    "/assets/img/project/project-6.4.jpg",
+  ],
+};
 
 const { images, subtitle, title } = project_contents;
 
@@ -22,9 +30,9 @@ const Projects = () => {
   const [open, setOpen] = React.useState(false);
   // handleImagePopup
   const handleImagePopup = (index) => {
-    setPhotoIndex(index)
-    setOpen(true)
-  }
+    setPhotoIndex(index);
+    setOpen(true);
+  };
   return (
     <React.Fragment>
       <div className="tp-project-area pt-130">
@@ -46,7 +54,10 @@ const Projects = () => {
                   </div>
                   <div className="bp-project-item-link">
                     <span>
-                      <button className="popup-image" onClick={() => handleImagePopup(i)}>
+                      <button
+                        className="popup-image"
+                        onClick={() => handleImagePopup(i)}
+                      >
                         <PopupArrow />
                       </button>
                     </span>
@@ -59,8 +70,13 @@ const Projects = () => {
       </div>
 
       {/* image light box start */}
-      <ImageLightBox images={images} open={open} setOpen={setOpen}
-        photoIndex={photoIndex} setPhotoIndex={setPhotoIndex} />
+      <ImageLightBox
+        images={images}
+        open={open}
+        setOpen={setOpen}
+        photoIndex={photoIndex}
+        setPhotoIndex={setPhotoIndex}
+      />
       {/* image light box end */}
     </React.Fragment>
   );

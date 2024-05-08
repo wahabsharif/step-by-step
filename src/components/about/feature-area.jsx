@@ -1,11 +1,13 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 function FeatureItem({ title, subtitle, color }) {
   return (
     <div className="col-xl-3 col-lg-3 col-md-6">
-      <div className='acfeature mb-50'>
-        <div className={`ac-circle ${color ? `ac-cirle-color-${color}` : ''}`}></div>
+      <div className="acfeature mb-50">
+        <div
+          className={`ac-circle ${color ? `ac-cirle-color-${color}` : ""}`}
+        ></div>
         <div className="acfeature__item">
           <h3 className="ac-feature-sm-title">
             <Link href="/about-me">
@@ -16,14 +18,16 @@ function FeatureItem({ title, subtitle, color }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 const contents = {
-  title: 'Creating world class experiences',
-  sm_desc_1: "Collax builds digital products that let people do things differently. Share your challenge with our team, and we’ll work with you to deliver a revolutionary digital product. Our clients have changed the way people do banking, listen to music.",
-  sm_desc_2: "learn languages, and rent bikes. Their products have been featured in TechCrunch, Business Insider, and Product Hunt"
-}
+  title: "Creating world class experiences",
+  sm_desc_1:
+    "Step By Step builds digital products that let people do things differently. Share your challenge with our team, and we’ll work with you to deliver a revolutionary digital product. Our clients have changed the way people do banking, listen to music.",
+  sm_desc_2:
+    "learn languages, and rent bikes. Their products have been featured in TechCrunch, Business Insider, and Product Hunt",
+};
 const { title, sm_desc_1, sm_desc_2 } = contents;
 
 const FeatureArea = () => {
@@ -46,14 +50,33 @@ const FeatureArea = () => {
           </div>
           <div className="ac-feature-border-top">
             <div className="row">
-              <FeatureItem title={'Project kikoff'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'PIdeation'} color={'2'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Design Process'} color={'3'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
-              <FeatureItem title={'Development'} color={'4'}
-                subtitle={'At collax we specialize designing building, shipping...'} />
+              <FeatureItem
+                title={"Project kikoff"}
+                subtitle={
+                  "At Step By Step we specialize designing building, shipping..."
+                }
+              />
+              <FeatureItem
+                title={"PIdeation"}
+                color={"2"}
+                subtitle={
+                  "At Step By Step we specialize designing building, shipping..."
+                }
+              />
+              <FeatureItem
+                title={"Design Process"}
+                color={"3"}
+                subtitle={
+                  "At Step By Step we specialize designing building, shipping..."
+                }
+              />
+              <FeatureItem
+                title={"Development"}
+                color={"4"}
+                subtitle={
+                  "At Step By Step we specialize designing building, shipping..."
+                }
+              />
             </div>
           </div>
         </div>

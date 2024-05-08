@@ -1,22 +1,27 @@
-import Link from 'next/link';
-import React from 'react';
-import useSticky from '../../hooks/use-sticky';
-import MobileMenu from './mobile-menu';
-import NavMenus from './nav-menus';
+import Link from "next/link";
+import React from "react";
+import useSticky from "../../hooks/use-sticky";
+import MobileMenu from "./mobile-menu";
+import NavMenus from "./nav-menus";
 
 const HeaderThree = () => {
   const { headerSticky } = useSticky();
   return (
     <>
       <header className="d-none d-lg-block">
-        <div id="header-sticky" className={`tp-header-area header-transparent hasdropdown-white pl-170 
-        pr-170 ${headerSticky ? 'header-sticky' : ''}`}>
+        <div
+          id="header-sticky"
+          className={`tp-header-area header-transparent hasdropdown-white pl-170 
+        pr-170 ${headerSticky ? "header-sticky" : ""}`}
+        >
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xxl-3 col-xl-3 col-lg-3">
                 <div className="tp-logo text-start">
                   <Link href="/">
-                    <a><img src="/assets/img/logo/logo-white.png" alt="" /></a>
+                    <a>
+                      <img src="/assets/img/logo/logo-white.png" alt="" />
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -38,7 +43,9 @@ const HeaderThree = () => {
                   </div>
                   <div className="tp-header-yellow-button ml-55">
                     <Link href="/contact">
-                      <a className="tp-btn-yellow-semilar">Get Collax Free</a>
+                      <a className="tp-btn-yellow-semilar">
+                        Get Step By Step Free
+                      </a>
                     </Link>
                   </div>
                 </div>
@@ -49,7 +56,7 @@ const HeaderThree = () => {
       </header>
 
       {/* <!-- mobile-menu-area --> */}
-      <MobileMenu logo={"logo-white.png"} bg={'tp-green-bg'} />
+      <MobileMenu logo={"logo-white.png"} bg={"tp-green-bg"} />
       {/* <!-- mobile-menu-area-end --> */}
     </>
   );

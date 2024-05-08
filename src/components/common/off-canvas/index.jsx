@@ -114,7 +114,9 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               </li>
               <li>
                 <i className="fas fa-star"></i>
-                <a href="mailto:Collaxmail@gmail.com">Collaxmail@gmail.com</a>
+                <a href="mailto:Step By Stepmail@gmail.com">
+                  Step By Stepmail@gmail.com
+                </a>
               </li>
             </ul>
           </div>
