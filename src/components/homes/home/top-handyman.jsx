@@ -77,7 +77,7 @@ const TopHandyman = () => {
                           Available At <br /> Your Door Step
                         </>
                       }
-                      text="24 Hour"
+                      text="24/7 Service"
                     />
                     <ChoseItem
                       item_num={"three"}
