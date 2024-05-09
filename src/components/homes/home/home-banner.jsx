@@ -115,7 +115,7 @@ const HomeBanner = () => {
                         </div>
                         <div className="counter-text">
                           <span>{b.box_title}</span>
-                          <p className="m-0">{b.box_text}</p>
+                          <p className="m-0  text-white">{b.box_text}</p>
                         </div>
                       </div>
                     </div>
