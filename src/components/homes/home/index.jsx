@@ -11,7 +11,6 @@ import WhereWeServeMap from "./where-we-serve-map";
 // import ServicesArea from "./services-area";
 import Testimonial from "./testimonial";
 import TopHandyman from "./top-handyman";
-// import GoogleForm from "./google-form";
 
 const Home = () => {
   useEffect(() => {
@@ -29,7 +28,6 @@ const Home = () => {
       {/* <ServicesArea/> */}
       {/* <ProjectArea/> */}
       <TopHandyman />
-      {/* <GoogleForm /> */}
       <Testimonial />
       {/* <BlogArea/> */}
       {/* <NewsLetter/> */}
