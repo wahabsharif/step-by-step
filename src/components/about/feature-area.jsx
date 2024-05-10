@@ -10,7 +10,7 @@ function FeatureItem({ title, subtitle, color }) {
         ></div>
         <div className="acfeature__item">
           <h3 className="ac-feature-sm-title">
-            <Link href="/about-me">
+            <Link href="/#">
               <a>{title}</a>
             </Link>
           </h3>
@@ -22,11 +22,11 @@ function FeatureItem({ title, subtitle, color }) {
 }
 
 const contents = {
-  title: "Creating world class experiences",
+  title: "Why People Love Step By Step",
   sm_desc_1:
-    "Step By Step builds digital products that let people do things differently. Share your challenge with our team, and we’ll work with you to deliver a revolutionary digital product. Our clients have changed the way people do banking, listen to music.",
+    "At Step By Step, we offer comprehensive maintenance solutions for various settings, whether it's your home, office, warehouse, or any other workplace. Our commitment to excellence is reflected in our steadfast dedication to upholding superior standards of work, training, and customer service. We prioritize safeguarding our reputation, ensuring that every task we undertake is executed with precision and care.",
   sm_desc_2:
-    "learn languages, and rent bikes. Their products have been featured in TechCrunch, Business Insider, and Product Hunt",
+    "Renowned for our exceptional service quality, our highly knowledgeable bookings team stands out among our clients. With their expertise and professionalism, they ensure seamless coordination and delivery of our maintenance services, consistently earning top ratings from satisfied customers.",
 };
 const { title, sm_desc_1, sm_desc_2 } = contents;
 
@@ -51,30 +51,30 @@ const FeatureArea = () => {
           <div className="ac-feature-border-top">
             <div className="row">
               <FeatureItem
-                title={"Project kikoff"}
+                title={"PUNCTUALITY"}
                 subtitle={
-                  "At Step By Step we specialize designing building, shipping..."
+                  "We provide precise arrival times, reaching 98.5% early or on time. If delayed, we'll notify you beforehand."
                 }
               />
               <FeatureItem
-                title={"PIdeation"}
+                title={"KNOWLEDGEABLE TEAM"}
                 color={"2"}
                 subtitle={
-                  "At Step By Step we specialize designing building, shipping..."
+                  "Expert call handlers aided by tradesmen ensure accurate diagnostics and quotes."
                 }
               />
               <FeatureItem
-                title={"Design Process"}
+                title={"SATISFACTION GUARANTEED"}
                 color={"3"}
                 subtitle={
-                  "At Step By Step we specialize designing building, shipping..."
+                  "Customers are top priority; expect friendly, professional service from start-finish."
                 }
               />
               <FeatureItem
-                title={"Development"}
+                title={"FLEXIBLE SERVICE"}
                 color={"4"}
                 subtitle={
-                  "At Step By Step we specialize designing building, shipping..."
+                  "Book services or annual contracts for 24/7 property support."
                 }
               />
             </div>
