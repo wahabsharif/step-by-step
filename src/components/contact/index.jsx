@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
-import { FooterThree, HeaderSix, Wrapper } from '../../layout';
-import { animationCreate } from '../../utils/utils';
-import Breadcrumb from '../common/breadcrumb/breadcrumb';
-import ContactArea from './contact-area';
-
+import React, { useEffect } from "react";
+import { FooterThree, Header, Wrapper } from "../../layout";
+import { animationCreate } from "../../utils/utils";
+import Breadcrumb from "../common/breadcrumb/breadcrumb";
+import ContactArea from "./contact-area";
 
 const Contact = () => {
-
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -15,9 +13,9 @@ const Contact = () => {
 
   return (
     <Wrapper>
-      <HeaderSix />
-      <Breadcrumb title={'Contact'} />
-      <ContactArea/>
+      <Header />
+      <Breadcrumb title={"Contact"} />
+      <ContactArea />
       <FooterThree />
     </Wrapper>
   );
