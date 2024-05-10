@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceDetailsArea = () => {
+const Introduction = () => {
   return (
     <>
       <div className="service-details-area">
@@ -9,7 +9,7 @@ const ServiceDetailsArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="sd-service-details">
                 <h3 className="tp-title-sm service-details-space">
-                  Skilled Handyman Services in Dubai
+                  Skilled Carpenters in Dubai
                 </h3>
                 <a href="#">
                   Schedule a free expert session
@@ -20,15 +20,17 @@ const ServiceDetailsArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="sd-service-details-paragraph">
                 <p className="pb-15">
-                  Transforming your space can feel daunting, while moving
-                  necessitates inevitable tasks like measuring, drilling, and
-                  mounting.{" "}
+                  Carpentry handyman services in Dubai are integral to daily
+                  life, encompassing various tasks in homes, apartments, and
+                  commercial buildings. Carpenter Dubai delivers top-notch
+                  carpentry services, earning trust and regular clientele
+                  through expertise.
                 </p>
                 <p className="pb-10">
-                  Whether it&apos;s hanging pictures, assembling furniture,
-                  organizing cables, or installing safety features like smoke
-                  alarms, our Dubai handyman services handle all the challenging
-                  and time-consuming tasks, leaving you free to enjoy your home.{" "}
+                  Our company provides dedicated handyman professionals for each
+                  task, whether it&apos;s door repairs or bed assembly. With
+                  skilled, experienced technicians, we cover a wide range of
+                  handyman services, including routine maintenance.
                 </p>
               </div>
             </div>
@@ -39,4 +41,4 @@ const ServiceDetailsArea = () => {
   );
 };
 
-export default ServiceDetailsArea;
+export default Introduction;

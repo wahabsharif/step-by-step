@@ -6,7 +6,7 @@ import FaqArea from "./faq";
 import Introduction from "./introduction";
 import Services from "./services";
 
-const Handyman = ({ service }) => {
+const Carpenter = ({ service }) => {
   useEffect(() => {
     setTimeout(() => {
       animationCreate();
@@ -16,7 +16,7 @@ const Handyman = ({ service }) => {
   return (
     <Wrapper>
       <Header />
-      <Breadcrumb title={service?.title ? service?.title : "Handyman"} />
+      <Breadcrumb title={service?.title ? service?.title : "Carpenter"} />
       <Services />
       <Introduction />
       <FaqArea />
@@ -25,4 +25,4 @@ const Handyman = ({ service }) => {
   );
 };
 
-export default Handyman;
+export default Carpenter;

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import services_data from "./handyman-services-data";
+import services_data from "./services-data";
 import Image from "next/image";
 
-const HandymanService = () => {
+const Services = () => {
   return (
     <>
       <div className="tp-service-area pt-110 pb-130">
@@ -73,4 +73,4 @@ const HandymanService = () => {
   );
 };
 
-export default HandymanService;
+export default Services;

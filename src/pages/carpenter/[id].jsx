@@ -13,7 +13,7 @@ const ServiceDynamicDetails = () => {
   );
   return (
     <Wrapper>
-      <SEO pageTitle={"Handyman"} />
+      <SEO pageTitle={"Carpenter"} />
       <ServiceDetailsMain service={service_item} />
     </Wrapper>
   );
