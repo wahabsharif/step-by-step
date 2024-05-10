@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import { FooterThree, Header, Wrapper } from "../../layout";
 import { animationCreate } from "../../utils/utils";
 import Breadcrumb from "../common/breadcrumb/breadcrumb";
-import CtaTwo from "../common/cta/cta-2";
 import AboutArea from "./introduction";
 import FeatureArea from "./feature-area";
 import ServicesArea from "./services-area";
 import TeamArea from "./team-area";
+import Testimonials from "./testimonial";
 
 const About = () => {
   useEffect(() => {
@@ -22,7 +22,7 @@ const About = () => {
       <ServicesArea />
       <FeatureArea />
       <TeamArea />
-      <CtaTwo />
+      <Testimonials />
       <FooterThree />
     </Wrapper>
   );
