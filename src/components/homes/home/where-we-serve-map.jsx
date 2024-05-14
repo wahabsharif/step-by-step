@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
@@ -39,7 +38,7 @@ const cta_contents = {
     { title: "Emirates Hills" },
   ],
 };
-const { cta_img, shapes, social_info, subtitle, title } = cta_contents;
+const { shapes, social_info, title } = cta_contents;
 
 const WhereWeServeMap = () => {
   return (

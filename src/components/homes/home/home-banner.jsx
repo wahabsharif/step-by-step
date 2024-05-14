@@ -5,7 +5,6 @@ import useModal from "../../../hooks/use-modal";
 const creative_contents = {
   shape_1: "/assets/img/hero/shape-2.png",
   creative_shapes: [
-    { img: "/assets/img/creative/creative-hand.png" },
     { img_2: "-2", img: "/assets/img/creative/creative-circle-img.png" },
   ],
   title: (
@@ -63,7 +62,7 @@ const creative_contents = {
   ],
 };
 
-const { creative_shapes, title, video_id, creative_box } = creative_contents;
+const { creative_shapes, title, creative_box } = creative_contents;
 
 const HomeBanner = () => {
   const { isVideoOpen, setIsVideoOpen } = useModal();
@@ -82,9 +81,7 @@ const HomeBanner = () => {
             <div
               key={i}
               className={`creative-shape-img${s.img_2 ? s.img_2 : ""}`}
-            >
-              <Image src={s.img} alt="" width={450} height={450} />
-            </div>
+            ></div>
           ))}
           <div className="container creative-z-index ">
             <div className="row">

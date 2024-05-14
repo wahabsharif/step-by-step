@@ -9,7 +9,7 @@ const Introduction = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="sd-service-details">
                 <h3 className="tp-title-sm service-details-space">
-                  Skilled Electricians in Dubai
+                  Skilled Plumbers in Dubai
                 </h3>
                 <a href="#">
                   Schedule a free expert session

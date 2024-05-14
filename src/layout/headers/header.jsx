@@ -14,7 +14,7 @@ const Header = () => {
       <header className="d-none d-lg-block">
         <div
           id="header-sticky"
-          className={`tp-header-area header-transparent pl-165 pr-165 pt-35 
+          className={`tp-header-area header-transparent pl-165 pr-165 pt-20
         ${headerSticky ? "header-sticky" : ""}`}
         >
           <div className="container-fluid">

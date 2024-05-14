@@ -16,7 +16,7 @@ const Services = () => {
             <h2 className="tp-title tp-title-sm">
               Top Level{" "}
               <span className="tp-section-highlight">
-                Electricians{" "}
+                Painter{" "}
                 <svg
                   width="247"
                   height="12"

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
@@ -50,15 +49,15 @@ const TopHandyman = () => {
                   <div className="tp-chose-item mb-40">
                     <div className="tpchosebox">
                       <div className="tpchosebox__icon mb-30">
-                        <a href="/handyman">
+                        <a href="handyman">
                           <i className="flaticon-group"></i>
                         </a>
                       </div>
                       <div className="tpchosebox__content">
                         <h4>
-                          <a href="/handyman">
+                          <span href="handyman">
                             Professional <br /> Handyman
-                          </a>
+                          </span>
                         </h4>
                         <p>25+ Team Member</p>
                       </div>
@@ -124,9 +123,9 @@ const TopHandyman = () => {
               <p className="pb-25">{text_1}</p>
               <p className="pb-20">{text_2}</p>
               <div className="tp-fea-button-five">
-                <Link href="/handyman">
+                <a href="/handyman">
                   <a className="tp-btn-sky">{btn_text}</a>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
